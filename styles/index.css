@@ -1,0 +1,38 @@
+@import "header.css";
+@import "section.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+:root {
+    --font-size-large: 21pt;
+    --font-size-medium: 18pt;
+    --font-size-small: 12pt;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 { 
+    font-weight: 400;
+    font-size: var(--font-size-large);
+}
+
+h2 { 
+    font-weight: 300;
+    font-size: var(--font-size-medium);
+}
+
+
+p { 
+    font-weight: 100;
+    font-size: var(--font-size-small);
+}

@@ -1,0 +1,32 @@
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.foto-perfil {
+    padding: 32px;
+}
+
+.foto-perfil,
+.foto-perfil picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil picture {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.foto-perfil picture,
+.foto-perfil picture img {
+    flex: 1;
+    max-width: 240px;
+}
+
+.nome-perfil h1,
+.nome-perfil h2 {
+    text-align: center;
+}
